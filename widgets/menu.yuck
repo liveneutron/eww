@@ -1,0 +1,66 @@
+(defwindow menu
+    :monitor 0
+    :geometry (geometry :height "60%"
+        :width "300px"
+        :anchor "center")
+        :stacking "fg"
+    (app_list_box)
+)
+
+(defwidget app_list_box []
+    (box :class "main_box" :orientation "v" :space-evenly false
+
+    (box :class "decoration_box" :orientation "h" :valign "center"
+
+    (box :class "title_box" :halign "start"
+    (label :class "title" :text "Run:"))
+
+	(button :class "close_btn_box" :onclick `eww close menu` :halign "end"
+	(label :text ""))
+
+    )
+    (app_list)
+))
+
+(defwidget app_list []
+(scroll :class "list" :vexpand true
+(box :orientation "v" :space-evenly false
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo2"))
+    
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo2"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo2"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo2"))
+    
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo2"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo"))
+
+	(button :class "item" :onclick `eww close menu` :halign "center"
+	(label :text "wowo2"))
+
+)
+))

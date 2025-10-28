@@ -1,0 +1,39 @@
+.main_box {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(black, .3);
+}
+
+.decoration_box {
+margin: 0;
+padding: 0;
+color: rgba(lightgrey, .8);
+}
+
+.title_box {
+margin: 0 0 0 10px;
+font-size: 20px;
+}
+
+.close_btn_box {
+padding: 0 7px 2px 9px;
+font-size: 23px;
+}
+
+.close_btn_box:hover {
+color: red;
+font-size: 23px;
+text-shadow: 0 0 10px red;
+}
+
+.list {
+margin: 5px 10px 5px 10px;
+box-shadow: 0 0 10px black;
+}
+
+.item {
+margin: 10px 0 10px 0;
+border: 2px double grey;
+}
+
+
