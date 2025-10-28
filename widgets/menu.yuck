@@ -24,43 +24,9 @@
 
 (defwidget app_list []
 (scroll :class "list" :vexpand true
-(box :orientation "v" :space-evenly false
+(box :class "items" :orientation "v" :space-evenly false
 
-	(button :class "item" :onclick `eww close menu` :halign "center"
+	(button :class "item" :onclick `eww close menu` :halign "center" :halign "fill"
 	(label :text "wowo"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo2"))
-    
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo2"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo2"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo2"))
-    
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo2"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo"))
-
-	(button :class "item" :onclick `eww close menu` :halign "center"
-	(label :text "wowo2"))
-
 )
 ))
