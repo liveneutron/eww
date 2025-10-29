@@ -26,7 +26,21 @@
 (scroll :class "list" :vexpand true
 (box :class "items" :orientation "v" :space-evenly false
 
-	(button :class "item" :onclick `eww close menu` :halign "center" :halign "fill"
-	(label :text "wowo"))
+
+    (button :class "item" :onclick `cd && foot ani-cli & eww close menu` :halign "center" :halign "fill" :valign "center"
+    (label :text "Anicli"))
+
+    (button :class "item" :onclick `cd && foot & eww close menu` :halign "center" :halign "fill" :valign "center"
+    (label :text "Foot"))
+
+    (button :class "item" :onclick `cd && librewolf & eww close menu` :halign "center" :halign "fill" :valign "center"
+    (label :text "Librewolf"))
+
+    (button :class "item" :onclick `cd && foot nvim & eww close menu` :halign "center" :halign "fill" :valign "center"
+	(label :text "Nvim"))
+
 )
 ))
+
+;; Todo
+;; may be make the height dynamic and add a maximum height
