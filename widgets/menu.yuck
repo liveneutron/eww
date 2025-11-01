@@ -36,11 +36,17 @@
     (button :class "item" :onclick `cd && librewolf & eww close menu` :halign "center" :halign "fill" :valign "center"
     (label :text "Librewolf"))
 
+    (button :class "item" :onclick `cd && mullvad-browser & eww close menu` :halign "center" :halign "fill" :valign "center"
+    (label :text "mullvad-browser"))
+
+    (button :class "item" :onclick `cd && foot nmtui & eww close menu` :halign "center" :halign "fill" :valign "center"
+	(label :text "NMTUI"))
+
     (button :class "item" :onclick `cd && foot nvim & eww close menu` :halign "center" :halign "fill" :valign "center"
 	(label :text "Nvim"))
+    
+    (button :class "item" :onclick `cd && foot pulsemixer & eww close menu` :halign "center" :halign "fill" :valign "center"
+	(label :text "Pulsemixer"))
 
 )
 ))
-
-;; Todo
-;; may be make the height dynamic and add a maximum height
