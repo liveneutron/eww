@@ -1,0 +1,10 @@
+(defwindow music_ctrl
+	:monitor 0
+	:geometry (geometry :x "2%"
+			:y "120px"
+			:height "160px"
+			:width "300px"
+			:anchor "bottom right")
+			:stacking "bg"
+	(box :class "music_ctrl-main-box" :orientation "h"
+	))
