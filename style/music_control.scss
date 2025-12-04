@@ -1,5 +1,41 @@
 .music_ctrl-main-box {
+padding: 0;
+margin: 0;
 background-color: rgba(black, 0.4);
 color: rgba(lightgrey, .4);
 border: 2px solid rgba(lightgrey, .4);
+}
+
+.music_art {
+  padding: 0;
+  margin:0;
+}
+
+.music_info {
+  padding: 0;
+  margin:0;
+}
+.music_title {
+padding: 5px;
+font-size: 18px;
+color: lightgrey;
+}
+.music_artist {
+padding: 3px;
+font-size: 15px;
+color: darkgrey;
+}
+.music_time_stamps{
+padding: 3px;
+font-size: 15px;
+color: darkgrey;
+}
+
+.control_btn {
+  font-size: 25px;
+  color: white;
+}
+.control_btn:hover {
+  font-size: 22px;
+  color: grey;
 }
