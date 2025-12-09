@@ -27,7 +27,7 @@
 	`uname -o`)
 
 (defpoll distro :interval "10h"
-	`uname -n`)
+	`grep -w "NAME" /etc/*-release | cut -d '"' -f2`)
 
 (defpoll kernel :interval "10h"
 	`uname -r`)
