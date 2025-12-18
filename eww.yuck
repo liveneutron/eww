@@ -2,4 +2,3 @@
 (include "./widgets/power_menu.yuck")
 (include "./widgets/music_control.yuck")
 (include "./widgets/music.yuck")
-(include "./widgets/menu.yuck")
