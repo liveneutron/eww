@@ -57,9 +57,10 @@
 (defwindow info
            :monitor 0
            :geometry (geometry :x "2%"
-                               :width "25%"
+                               :y "109px"
+                               :width "340px"
                                :height "60%"
-                               :anchor "center left")
+                               :anchor "bottom right")
            :stacking "bg"
 	(box :class "info" :orientation "V" :space-evenly false 
 	(time)
