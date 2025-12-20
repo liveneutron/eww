@@ -1,9 +1,9 @@
 (defwindow power_menu
 	:monitor 0
-	:geometry (geometry :x "2%"
+	:geometry (geometry :x "10px"
 			:y "10px"
-			:height "88px"
-			:width "340px"
+			:height "82px"
+			:width "320px"
 			:anchor "bottom right")
 			:stacking "bg"
 	(box :class "power_menu" :orientation "h"
